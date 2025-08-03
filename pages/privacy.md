@@ -27,9 +27,6 @@ card: true
 - **51la 统计工具** 会收集您的访问信息，用于网站维护。[51la 隐私政策](https://www.51.la/about/privacy)
 - **灵雀应用监控平台** 会收集您的访问操作过程和资源加载情况，用于网站维护。[51la 隐私政策](https://www.51.la/about/privacy)
 - **SUSTech Open Source Mirrors** 会收集您的访问信息，用于网站加速。[SUSTech Open Source Mirrors 简介](https://mirrors.sustech.edu.cn/about/)
-- **腾讯云** 会收集您的访问信息，用于提供网站服务。[腾讯云隐私政策](https://www.tencentcloud.com/zh/document/product/301/17345)
-- **多吉云** 会收集您的访问信息，用于提供网站服务。[多吉云隐私权政策](https://www.dogecloud.com/page/privacy-policy)
-- **又拍云** 会收集您的访问信息，用于提供网站服务。[又拍云用户隐私政策](https://help.upyun.com/knowledge-base/%E7%94%A8%E6%88%B7%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96/)
 - **腾讯Codesign** 会收集您的访问信息，用于提供图标显示。[CoDesign 设计协作平台隐私保护指引](https://codesign.qq.com/privacy.html)
 - **网易云音乐** 会收集您的访问信息，用于胶囊音乐的展示与播放。[网易云音乐隐私政策](https://st.music.163.com/official-terms/privacy)
 
@@ -61,13 +58,11 @@ card: true
 **内置服务**
 
 - 评论系统
-- 友链鱼塘
 - 中控台
 - 胶囊音乐
 
 **第三方服务**
 
-- 百度统计
 - 51la 统计
 
 详情参考 [在 Chrome 中删除、允许和管理 Cookie](https://support.google.com/chrome/answer/95647?co=GENIE.Platform=Desktop&hl=zh-Hans)

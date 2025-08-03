@@ -1,11 +1,16 @@
 /**
  * 51.la 统计
  */
-const script = document.createElement('script');
-script.charset = "UTF-8";
-script.id = "LA_COLLECT";
-script.src = "//sdk.51.la/js-sdk-pro.min.js";
-document.head.appendChild(script);
+if (typeof document !== 'undefined') {
+  const script = document.createElement('script');
+  script.charset = "UTF-8";
+  script.id = "LA_COLLECT";
+  script.src = "//sdk.51.la/js-sdk-pro.min.js";
+  script.onload = () => {
+    LA.init({id: "3N0a1HWCvYjfeBG7", ck: "3N0a1HWCvYjfeBG7"});
+  };
+  document.head.appendChild(script);
+}
 
 
 /**
@@ -17,9 +22,6 @@ export const getHitokoto = async () => {
   const result = await fetch("https://international.v1.hitokoto.cn/");
   const hitokoto = await result.json();
   return hitokoto;
-};
-script.onload = () => {
-  LA.init({id: "3N0a1HWCvYjfeBG7", ck: "3N0a1HWCvYjfeBG7"});
 };
 /**
  * 获取给定网址的站点图标和描述

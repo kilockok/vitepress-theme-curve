@@ -12,7 +12,9 @@ import Home from "@/views/Home.vue"
 const { params, site } = useData();
 
 onMounted(() => {
-  document.title = `分类：${params.value.name} | ${site.value.title}`;
+  if (typeof document !== 'undefined') {
+    document.title = `分类：${params.value.name} | ${site.value.title}`;
+  }
 });
 </script>
 

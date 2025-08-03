@@ -2,7 +2,7 @@
 <template>
   <div class="link">
     <!-- 顶图 -->
-    <Banner type="page" title="友情链接" desc="与各位博主无限进步">
+    <!-- <Banner type="page" title="友情链接" desc="与各位博主无限进步">
       <template v-slot:header-slot>
         <div class="menu">
           <div class="menu-item random" @click="randomJump">
@@ -15,7 +15,7 @@
           </div>
         </div>
       </template>
-      <!-- <div class="link-group">
+      <div class="link-group">
         <div v-for="(link, index) in pairedLinks(allLinkData)" :key="index" class="link-group-item">
           <a v-for="(item, i) in link" :key="i" :href="item.url" class="link-logo">
             <LazyLoader>
@@ -28,48 +28,48 @@
             </LazyLoader>
           </a>
         </div>
-      </div> -->
-    </Banner>
+      </div>
+    </Banner> -->
     <!-- 友链数据 -->
     <LinkList :listData="linkData" :useFriendsLink="true" />
   </div>
 </template>
 
 <script setup>
-import { smoothScrolling } from "@/utils/helper";
+// import { smoothScrolling } from "@/utils/helper";
 import linkData from "@/assets/linkData.mjs";
 
 // 全部友链
-const allLinkData = computed(() => {
-  return linkData.flatMap((item) => item.typeList);
-});
+// const allLinkData = computed(() => {
+//   return linkData.flatMap((item) => item.typeList);
+// });
 
 // 随机跳转
-const randomJump = () => {
-  try {
-    const friendList = allLinkData.value;
-    const randomList = friendList[Math.floor(Math.random() * friendList.length)];
-    $message.warning(
-      `您即将前往 ${randomList?.name}，请注意链接是否安全`,
-      {
-        close: true,
-        duration: 2000,
-      },
-      () => {
-        if (randomList?.url) window.open(randomList.url, "_blank");
-      },
-    );
-  } catch (error) {
-    console.error("友链随机访问时出错：", error);
-    $message.error("友链随机访问时出错，请重试");
-  }
-};
+// const randomJump = () => {
+//   try {
+//     const friendList = allLinkData.value;
+//     const randomList = friendList[Math.floor(Math.random() * friendList.length)];
+//     $message.warning(
+//       `您即将前往 ${randomList?.name}，请注意链接是否安全`,
+//       {
+//         close: true,
+//         duration: 2000,
+//       },
+//       () => {
+//         if (randomList?.url) window.open(randomList.url, "_blank");
+//       },
+//     );
+//   } catch (error) {
+//     console.error("友链随机访问时出错：", error);
+//     $message.error("友链随机访问时出错，请重试");
+//   }
+// };
 </script>
 
 <style lang="scss" scoped>
 .link {
   margin-bottom: 4rem;
-  .banner-page {
+  /* .banner-page {
     // min-height: 440px;
     min-height: auto;
     .menu {
@@ -157,6 +157,7 @@ const randomJump = () => {
         display: none;
       }
     }
-  }
+  } */
 }
+
 </style>
