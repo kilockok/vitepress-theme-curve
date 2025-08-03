@@ -136,8 +136,8 @@ export const themeConfig = {
     {
       text: "我的",
       items: [
-        // { text: "畅所欲言", link: "/pages/message", icon: "chat" },
-        // { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
+        { text: "畅所欲言", link: "/pages/message", icon: "chat" },
+        { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
         { text: "关于本站", link: "/pages/about", icon: "contacts" },
       ],
     },
@@ -182,36 +182,36 @@ export const themeConfig = {
     {
       name: "项目",
       list: [
-        // {
-        //   icon: "/images/logo/logo.webp",
-        //   name: "Curve",
-        //   url: "https://github.com/imsyy/vitepress-theme-curve",
-        // },
-        // {
-        //   icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-        //   name: "SPlayer",
-        //   url: "https://github.com/imsyy/SPlayer",
-        // },
-        // {
-        //   icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-        //   name: "Snavigation",
-        //   url: "https://github.com/imsyy/SPlayer",
-        // },
-        // {
-        //   icon: "/images/logo/logo.webp",
-        //   name: "Home",
-        //   url: "https://github.com/imsyy/home",
-        // },
-        // {
-        //   icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-        //   name: "DailyHotApi",
-        //   url: "https://github.com/imsyy/DailyHotApi",
-        // },
-        // {
-        //   icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-        //   name: "site-status",
-        //   url: "https://github.com/imsyy/site-status",
-        // },
+        {
+          icon: "/images/logo/logo.webp",
+          name: "Curve",
+          url: "https://github.com/imsyy/vitepress-theme-curve",
+        },
+        {
+          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
+          name: "SPlayer",
+          url: "https://github.com/imsyy/SPlayer",
+        },
+        {
+          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+          name: "Snavigation",
+          url: "https://github.com/imsyy/SPlayer",
+        },
+        {
+          icon: "/images/logo/logo.webp",
+          name: "Home",
+          url: "https://github.com/imsyy/home",
+        },
+        {
+          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+          name: "DailyHotApi",
+          url: "https://github.com/imsyy/DailyHotApi",
+        },
+        {
+          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+          name: "site-status",
+          url: "https://github.com/imsyy/site-status",
+        },
       ],
     },
   ],
@@ -222,7 +222,7 @@ export const themeConfig = {
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
-      enable: false,
+      enable: true,
       // 封面布局方式: left | right | both
       coverLayout: 'both',
       // 默认封面(随机展示)
@@ -276,9 +276,10 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "本站源码", link: "https://github.com/kilockok/vitepress-theme-curve", newTab: true },
-          { text: "数字分身", link: "https://github.com/qqqqqf-q/Qing-Digital-Self", newTab: true },
-          { text: "freqtrade", link: "https://github.com/freqtrade/freqtrade", newTab: true },
+          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
+          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
+          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
+          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
         ],
       },
       {
@@ -341,7 +342,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里记录了<strong>清凤</strong>的日常与点滴，也许偶尔会透露一些<strong>crazy</strong>的思绪，还有一些<strong>奇奇怪怪</strong>的东西。",
+      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
     },
     // 目录
     toc: {
@@ -435,6 +436,6 @@ export const themeConfig = {
   },
   // 站点统计
   tongji: {
-    "51la": "3N0a1HWCvYjfeBG7",
+    "51la": "",
   },
 };

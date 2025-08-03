@@ -1,3 +1,6 @@
+/**
+ * 51.la 统计
+ */
 const script = document.createElement('script');
 script.charset = "UTF-8";
 script.id = "LA_COLLECT";
