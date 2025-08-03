@@ -47,11 +47,6 @@
           <span class="list-item" style="--color: #357ef5">象山县塔山中学 · 学生</span>
           <span class="list-item" style="--color: #eb372a">连云港市外国语中学 · 学生</span>
         </div>
-        <img
-          class="career-img"
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d71db18bcf9.png"
-          alt="career"
-        />
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 3fr 2fr">
@@ -74,11 +69,6 @@
             逻辑学家
           </a>
         </span>
-        <img
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d6bc7ae72ae.png"
-          alt="male"
-          class="male"
-        />
       </div>
       <!-- 座右铭 -->
       <div class="about-item">
@@ -106,11 +96,8 @@
     <div class="about-content" style="grid-template-columns: 2fr 3fr">
       <!-- 数据 -->
       <div
-        class="about-item static image"
-        style="
-          --color: #0f1114;
-          background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661c8fbf226d3.webp);
-        "
+          class="about-item static image"
+          style="background-image: url(/images/logo/nacho3.jpg);"
       >
         <div class="image-content">
           <span class="tip">数据</span>
@@ -161,6 +148,9 @@
         </p>
         <p class="text">
           但它承载了我们过去的时光，证明我们曾真实存在过。
+        </p>
+        <p style="position: absolute; bottom: -8px; left: 10px; font-size: 12px; color: gray;">
+          由Kilock提供技术支持
         </p>
         <p style="position: absolute; bottom: -8px; right: 10px; font-size: 12px; color: gray;">
           这只是我们的一小部分
@@ -554,7 +544,7 @@ onMounted(() => {
           display: flex;
           flex-direction: column;
           z-index: 2;
-          color: var(--main-font-color);
+          color: #2C3E50;
           .image-desc {
             width: 100%;
             display: flex;
