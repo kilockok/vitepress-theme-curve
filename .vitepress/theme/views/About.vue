@@ -4,23 +4,23 @@
     <div class="about-content" style="grid-template-columns: 3fr 2fr">
       <!-- 介绍 -->
       <div class="about-item hello">
-        <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
-        <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
+        <span class="text1">你好，很高兴认识你</span>
+        <span class="text2 title2">我是 清凤 / kilock</span>
+        <span class="text3">是两名 学生、独立开发者、Mtf</span>
       </div>
       <!-- 追求 -->
       <div class="about-item pursuit">
         <span class="tip">追求</span>
-        <span class="title2">源于</span>
-        <span class="title2">热爱而去开发</span>
-        <span class="title2">优秀的作品</span>
+        <span class="title2">活下去</span>
+        <span class="title2">去做更多</span>
+        <span class="title2">更优秀的作品</span>
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 2fr 3fr">
       <!-- 技能 -->
       <div class="about-item skills">
         <span class="tip">技能</span>
-        <span class="title2">开启创造力</span>
+        <span class="title2">我们会的东西</span>
         <div class="skills-list">
           <a
             v-for="(item, index) in skillsData"
@@ -41,11 +41,11 @@
       <div class="about-item career">
         <span class="tip">生涯</span>
         <span class="title2">
-          <i>無限進步</i>
+          <i>成长中...</i>
         </span>
         <div class="list">
-          <span class="list-item" style="--color: #357ef5">ZZRVTC · 计算机应用技术</span>
-          <span class="list-item" style="--color: #eb372a">FE · 前端开发工程师</span>
+          <span class="list-item" style="--color: #357ef5">象山县塔山中学 · 学生</span>
+          <span class="list-item" style="--color: #eb372a">连云港市外国语中学 · 学生</span>
         </div>
         <img
           class="career-img"
@@ -58,14 +58,20 @@
       <!-- 性格 -->
       <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
-        <span class="title2">物流师</span>
-        <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
+        <span class="title2">鉴赏家 / 逻辑学家</span>
+        <span class="title2">
+          <span style="color: #f1c40f">ISTP</span> / <span style="color: #9b59b6">INTP</span>
+        </span>
         <span class="more">
           在
           <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
           了解更多关于
-          <a href="https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC" target="_blank">
-            物流师
+          <a href="https://www.16personalities.com/ch/istp-%E4%BA%BA%E6%A0%BC" target="_blank">
+            鉴赏家
+          </a>
+          和
+          <a href="https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC" target="_blank">
+            逻辑学家
           </a>
         </span>
         <img
@@ -77,38 +83,22 @@
       <!-- 座右铭 -->
       <div class="about-item">
         <span class="tip">座右铭</span>
-        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
-        <span class="title2">一丝不苟。</span>
+        <span class="title1" style="margin-top: 20px">活在当下，</span>
+        <span class="title2">及时享乐。</span>
       </div>
     </div>
-    <div class="about-content" style="grid-template-columns: 1fr 1fr">
+    <div class="about-content" style="display: flex">
       <div
         class="about-item like image"
         style="
-          --color: #0c0e20;
-          background-image: url(https://pic.efefee.cn/uploads/2024/02/27/65dd812567723.webp);
+          background-image: url(/images/logo/nacho2.jpeg);
         "
       >
         <div class="image-content">
           <span class="tip">关注偏好</span>
-          <span class="title2">数码科技</span>
+          <span class="title2">量化交易、虚拟货币、科技、AI、游戏<br/>逆向工程、猫猫！！</span>
           <div class="image-desc">
-            <span class="left">手机、电脑及软硬件</span>
-          </div>
-        </div>
-      </div>
-      <div
-        class="about-item like image"
-        style="
-          --color: #7b3c25;
-          background-image: url(https://pic.efefee.cn/uploads/2024/02/27/65dd836099d16.webp);
-        "
-      >
-        <div class="image-content">
-          <span class="tip">音乐偏好</span>
-          <span class="title2">欧美、华语流行、纯音乐、ACG</span>
-          <div class="image-desc">
-            <span class="left">一起欣赏更多音乐</span>
+            <span class="left">手机、电脑及软硬件、网络等</span>
           </div>
         </div>
       </div>
@@ -138,41 +128,45 @@
           </div>
         </div>
       </div>
-      <!-- 信息 -->
+      <!-- 信息 --> 
       <div class="about-item child">
-        <div
+
+        <a
           class="about-item map image"
-          style="background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661cbccc56af5.webp)"
+          href="https://ditu.amap.com/place/B023E0Z0HD"
+          target="_blank"
+          style="background-image: url(/images/logo/ningbo-map.png)"
         >
-          <span class="position">我现在住在 <strong>中国，河南省</strong></span>
-        </div>
+          <span class="position">我现在住在 <strong>中国，浙江省，宁波市</strong></span>
+        </a>
         <div class="about-item info">
           <div class="info-item">
             <span class="info-name">生于</span>
-            <span class="info-num" style="--color: #43a6c6">2001</span>
+            <span class="info-num" style="--color: #43a6c6">2009 / 2008</span>
           </div>
           <div class="info-item">
             <span class="info-name">现在职业</span>
-            <span class="info-num" style="--color: #dfac46">前端开发工程师</span>
+            <span class="info-num" style="--color: #dfac46">学生</span>
           </div>
         </div>
       </div>
     </div>
-    <!-- 心路历程 -->
+    <!-- 关于这个小破站 -->
     <div class="about-content" style="display: flex">
       <div class="about-item">
-        <span class="tip">心路历程</span>
-        <span class="title2">为什么建站？</span>
+        <span class="tip">关于这个小破站</span>
+        <span class="title2">一个见证我们存在的小站</span>
         <p class="text">
-          创建这个站的时候，想要就是能够有一个自己能够<strong>积累知识</strong>、<strong>积累兴趣</strong>的地方。和他人分享，会让这些成为<strong>积累和沉淀</strong>。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。
+          这里记录着我们生活的片段，虽然不广为人知，
         </p>
         <p class="text">
-          这里大多都是<strong>技术向</strong>的文章，可能不太会有很多人看，权当是做个自我记录吧。当然，如果某篇文章能够帮助到你，那我也是很开心的。
+          但它承载了我们过去的时光，证明我们曾真实存在过。
         </p>
-        <p class="text">
-          这些就是创造这个小站的本意，<strong>也是我分享生活的方式</strong>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。
+        <p style="position: absolute; bottom: -8px; right: 10px; font-size: 12px; color: gray;">
+          这只是我们的一小部分
         </p>
       </div>
+      
     </div>
   </div>
 </template>
@@ -185,40 +179,10 @@ const { theme } = useData();
 // 技能数据
 const skillsData = [
   {
-    name: "JavaScript",
-    color: "#f1e05abd",
-    icon: "javascript",
-    link: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
-  },
-  {
-    name: "HTML5",
-    color: "#e34f26",
-    icon: "html5",
-    link: "https://developer.mozilla.org/zh-CN/docs/Web/HTML",
-  },
-  {
-    name: "CSS3",
-    color: "#563d7c",
-    icon: "css3",
-    link: "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
-  },
-  {
-    name: "Vue",
-    color: "#41b883",
-    icon: "vue",
-    link: "https://cn.vuejs.org/",
-  },
-  {
-    name: "React",
-    color: "#149ECA",
-    icon: "react",
-    link: "https://zh-hans.reactjs.org/",
-  },
-  {
-    name: "Node.js",
-    color: "#026E00",
-    icon: "nodejs",
-    link: "https://nodejs.org/",
+    name: "C++",
+    color: "#00599C",
+    icon: "code",
+    link: "https://learn.microsoft.com/zh-cn/cpp/",
   },
   {
     name: "Python",
@@ -226,13 +190,25 @@ const skillsData = [
     icon: "python",
     link: "https://www.python.org/",
   },
-  {
-    name: "Docker",
-    color: "#2496f2",
-    icon: "docker",
-    link: "https://www.docker.com/",
+    {
+    name: "HTML5",
+    color: "#e34f26",
+    icon: "html5",
+    link: "https://developer.mozilla.org/zh-CN/docs/Web/HTML",
   },
-  {
+    {
+    name: "Vue",
+    color: "#41b883",
+    icon: "vue",
+    link: "https://cn.vuejs.org/",
+  },
+    {
+    name: "Node.js",
+    color: "#026E00",
+    icon: "nodejs",
+    link: "https://nodejs.org/",
+  },
+    {
     name: "Git",
     color: "#F05032",
     icon: "git",
@@ -319,20 +295,116 @@ onMounted(() => {
         }
       }
       &.hello {
+        position: relative;
+        display: flex;
         justify-content: center;
         padding: 2rem;
-        color: #fff;
-        background-image: linear-gradient(120deg, #5b27ff 0%, #00d4ff 100%);
-        background-size: 200% 200%;
-        animation: gradientFlow 6s ease infinite;
+        color: #2C3E50; /* 字体保持清晰 */
+        background-color: #5BCEFA; /* 底色兜底统一蓝色调 */
+        overflow: hidden;
+        font-weight: 600;
+
+        /*
+        * 平滑的跨性别旗帜渐变：不要硬切条，利用临近重叠来柔化分界
+        */
+        background-image: linear-gradient(
+          120deg,
+          #5BCEFA 0%,
+          #5BCEFA 15%,
+          rgba(245, 169, 184, 0.9) 28%,
+          rgba(245, 169, 184, 0.7) 38%,
+          rgba(255, 255, 255, 0.85) 48%,
+          rgba(255, 255, 255, 0.6) 52%,
+          rgba(245, 169, 184, 0.7) 62%,
+          rgba(245, 169, 184, 0.9) 72%,
+          #5BCEFA 85%,
+          #5BCEFA 100%
+        );
+        background-size: 250% 250%; /* 扩大以便流动有空间 */
+        animation: smoothFlow 30s linear infinite alternate;
+
         .title2 {
-          line-height: 2;
+          position: relative;
+          line-height: 1.2;
+          font-size: 2.2rem;
+          z-index: 2; /* 确保在模糊层之上 */
+        }
+
+        /* 叠加柔和模糊层进一步打散分界 */
+        &::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          background: inherit; /* 取同样渐变 */
+          filter: blur(35px);
+          opacity: 0.45;
+          transform: scale(1.05);
+          mix-blend-mode: screen;
+          z-index: 0;
+          animation: slowShift 60s ease-in-out infinite alternate;
+        }
+
+        /* 轻微动态光晕增加层次，但不影响文字清晰 */
+        &::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          background: radial-gradient(circle at 50% 50%,
+            rgba(255,255,255,0.15) 0%,
+            transparent 70%);
+          filter: blur(80px);
+          opacity: 0.6;
+          z-index: 1;
+          animation: haloDrift 25s ease-in-out infinite alternate;
+        }
+
+        /* GPU 优化防抖 */
+        backface-visibility: hidden;
+        transform: translateZ(0);
+      }
+
+      @keyframes smoothFlow {
+        from {
+          background-position: 0% 0%;
+        }
+        to {
+          background-position: 100% 100%;
         }
       }
+
+      @keyframes slowShift {
+        0% {
+          transform: scale(1.05) translate(0, 0);
+        }
+        50% {
+          transform: scale(1.08) translate(2%, 2%);
+        }
+        100% {
+          transform: scale(1.05) translate(0, 0);
+        }
+      }
+
+      @keyframes haloDrift {
+        0% {
+          transform: scale(1) translate(0, 0);
+          opacity: 0.55;
+        }
+        50% {
+          transform: scale(1.02) translate(-1%, 1%);
+          opacity: 0.65;
+        }
+        100% {
+          transform: scale(1) translate(0, 0);
+          opacity: 0.55;
+        }
+      }
+
       &.pursuit {
         .title2 {
           line-height: 1.2;
-          &:last-child {
+          &:nth-child(2) {
             display: inline-block;
             background-size: 100% 100%;
             background-clip: text;
@@ -340,6 +412,15 @@ onMounted(() => {
             -webkit-text-fill-color: transparent;
             background-repeat: no-repeat;
             background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+          }
+          &:nth-child(4) {
+            display: inline-block;
+            background-size: 100% 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(45deg, #4CAF50 50%, #8BC34A);
           }
         }
       }
@@ -473,7 +554,7 @@ onMounted(() => {
           display: flex;
           flex-direction: column;
           z-index: 2;
-          color: #fff;
+          color: var(--main-font-color);
           .image-desc {
             width: 100%;
             display: flex;
