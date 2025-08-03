@@ -3,21 +3,21 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "清凤小栈",
     // 站点描述
-    description: "Hello World",
+    description: "Kilock For You",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://清凤.fun",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "清凤",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "qff45688@gmail.com",
+      link: "https://清凤.fun",
     },
   },
   // 备案信息
@@ -239,27 +239,27 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:qff45688@gmail.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://www.github.com/qqqqqf-q",
       },
       {
         icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://t.me/@qqfqffq",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/473155258",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://res.abeim.cn/api/qq/?qq=731052835",
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://x.com/qqqqqf5",
       },
     ],
     // sitemap
@@ -357,8 +357,8 @@ export const themeConfig = {
       enable: true,
       // 倒计时日期
       data: {
-        name: "春节",
-        date: "2025-01-29",
+        name: "CakeDay",
+        date: "2025-11-15",
       },
     },
     // 站点数据
@@ -367,16 +367,16 @@ export const themeConfig = {
     },
   },
   // 友链
-  friends: {
-    // 友链朋友圈
-    circleOfFriends: "",
-    // 动态友链
-    dynamicLink: {
-      server: "",
-      app_token: "",
-      table_id: "",
-    },
-  },
+  // friends: {
+  //   // 友链朋友圈
+  //   circleOfFriends: "",
+  //   // 动态友链
+  //   dynamicLink: {
+  //     server: "",
+  //     app_token: "",
+  //     table_id: "",
+  //   },
+  // },
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
@@ -398,13 +398,13 @@ export const themeConfig = {
     apiKey: "",
   },
   // 打赏
-  rewardData: {
-    enable: true,
-    // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
-    // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
-  },
+  // rewardData: {
+  //   enable: true,
+  //   // 微信二维码
+  //   wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+  //   // 支付宝二维码
+  //   alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+  // },
   // 图片灯箱
   fancybox: {
     enable: true,
