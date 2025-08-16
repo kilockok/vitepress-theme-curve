@@ -232,6 +232,11 @@ export const themeConfig = {
           name: "数字分身",
           url: "https://qqqqqf-q.github.io/Qing-Digital-Self/",
         },
+        {
+          icon: "images/logo/freqtrade.png",
+          name: "freqtrade",
+          url: "https://github.com/freqtrade/freqtrade",
+        },
         // {
         //   icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
         //   name: "DailyHotApi",
